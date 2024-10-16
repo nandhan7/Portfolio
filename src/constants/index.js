@@ -263,7 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: pizza,
+    image: travel,
     source_code_link: "https://github.com/nandhan7/WorldWise",
     DemoLink: "https://drive.google.com/file/d/1EJU1eiGQaLiRKBzyuL4_Is3i7ddruEKn/view"
   },
