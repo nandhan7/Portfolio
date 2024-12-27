@@ -48,7 +48,7 @@ import pizza from "./pizza.jpg";
 import eye from "./eye.jpg";
 import zapier from "./zapier.jpg"
 import website from "./Website.jpg"
-import image from "./image.jpg"
+import image from "./Image.jpg"
 export {
   logo,
   backend,
