@@ -23,7 +23,11 @@ const Tech = () => {
     return () => window.removeEventListener("resize", handleResize);
     // Cleanup
   }, []); // Empty dependency array to run only once
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> fa065e71735c408f517221742db42cfd0369c272
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technology) => (
