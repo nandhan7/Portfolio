@@ -34,6 +34,9 @@ import {
   threejs,
   atkins,
   Nextjs,
+  zapier,
+  website,
+  image, 
 } from "../assets";
 
 export const navLinks = [
@@ -166,6 +169,116 @@ const experiences = [
 
 const projects = [
   {
+    name: "Zapier - Automation Platform",
+    description:
+      "Developed an automation platform that enables users to create custom workflows, triggered by webhooks, for automating tasks such as sending emails or payments. The platform leverages the transactional outbox pattern to ensure atomic, reliable task execution. Events are stored in an outbox table alongside database updates, and background workers process tasks while integrating Apache Kafka for real-time event handling. This design ensures fault-tolerant, scalable workflows, preventing data inconsistencies and guaranteeing no tasks are lost, even during system failures",
+    tags: [
+      {
+        name: "Next js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Apache Kafka",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Web Containers",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Postgres",
+        color: "red-text-gradient",
+      },
+    ],
+    image: zapier,
+    source_code_link: "https://github.com/nandhan7/Zapier",
+    DemoLink: "https://drive.google.com/file/d/1tl8wVJ7VhNQKD0mrFF9vIPKnASNGjHZz/view?usp=sharing",
+  },
+  {
+    name: "AI Website Builder",
+    description:
+      "Developed an AI-powered website builder that allows users to create customizable websites from simple prompts. The platform provides real-time previews, enabling users to see changes as they make adjustments. After the initial website generation, users can give additional prompts to refine or modify the design, ensuring the final result aligns with their needs. This process ensures an intuitive and seamless experience from design to deployment, with intelligent features that adapt to user input for continuous improvements.",
+    tags: [
+      {
+        name: "Artificial Intelligence",
+        color: "black-text-gradient",
+      },
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Web Containers",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Claude API",
+        color: "grey-text-gradient",
+      },
+    ],
+    image: website,
+    source_code_link: "https://github.com/nandhan7/Website-Builder",
+    DemoLink: "https://drive.google.com/file/d/12yzB6vp0xLtUEzN9q9LFwdaxQBnU-sgT/view",
+  },
+  {
+    name: "AI Image Generator",
+    description:
+      "Developed an AI-powered platform that generates images based on user prompts, providing real-time previews and downloads with smooth performance. The platform allows users to see instant results, facilitating a seamless experience from concept to final output. Additionally, it offers easy integration, enabling users to generate high-quality images efficiently. The platform ensures a user-friendly and interactive interface, enhancing creativity and customization options for users.",
+    tags: [
+      {
+        name: "Artificial Intelligence",
+        color: "black-text-gradient",
+      },
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "red-text-gradient",
+      },
+      {
+        name: "ClipDrop API",
+        color: "grey-text-gradient",
+      },
+    ],
+    image: image,
+    source_code_link: "https://github.com/nandhan7/Imagify",
+    DemoLink: "https://drive.google.com/file/d/19D3t-t6xzSqgMHG-1iv9WeZ7zSNI1HDL/view",
+  },
+  {
     name: "Real Estate App",
     description:
       "Designed and implemented a Real Estate application that features secure user authentication to ensure data protection and privacy. The application enables users to browse and view property listings, upload their own properties, save favorite locations, and update their profiles seamlessly. Additionally, a messaging system was integrated to allow users to communicate directly with property owners, enhancing user engagement and fostering interaction within the platform. This comprehensive approach ensures a user-friendly experience while facilitating effective communication in the real estate market.",
@@ -267,7 +380,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: pizza,
+    image: travel,
     source_code_link: "https://github.com/nandhan7/WorldWise",
     DemoLink: "https://drive.google.com/file/d/1EJU1eiGQaLiRKBzyuL4_Is3i7ddruEKn/view"
   },

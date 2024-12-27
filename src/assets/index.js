@@ -46,7 +46,9 @@ import travel from "./travel.jpg";
 import hotel from "./hotel.jpg";
 import pizza from "./pizza.jpg";
 import eye from "./eye.jpg";
-
+import zapier from "./zapier.jpg"
+import website from "./website.jpg"
+import image from "./image.jpg"
 export {
   logo,
   backend,
@@ -91,5 +93,8 @@ export {
   realestate,
   pizza,
   hotel,
-  travel, eye
+  travel, eye,
+  image,
+  website,
+  zapier
 };
