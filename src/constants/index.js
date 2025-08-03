@@ -135,21 +135,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Graduate Software Developer",
-    company_name: "Atkins Realis",
+    title: "Data Engineer",
+    company_name: "AtkinsRealis",
     icon: atkins,
     iconBg: "#E6DEDD",
     date: "August 2023 - Present",
     points: [
-      "Developed frontend pages using React.js and Redux and backend APIs with Node.js and Express.js for seamless user experience and efficient data processing",
-      "Automated data workflows using Python, NumPy, and Pandas, enhancing efficiency and accuracy with data visualization through Matplotlib and Seaborn, resulting in significant cost savings",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Configured Azure Pipelines for CI/CD and optimized data handling with Advanced SQL stored procedures.",
+       "Designed and developed scalable ETL pipelines in Python using Pandas and PyODBC to extract, transform, and load large volumes of structured and unstructured data from Excel into Azure SQL Database.",
+      "Implemented serverless, event-driven processing using Azure Functions triggered by file uploads in Azure Data Lake, ensuring low-latency ingestion without manual intervention.",
+      "Built end-to-end data workflows using Azure Data Factory for pipeline orchestration, dependency handling, and integration with Azure Key Vault for secure credential management.",
+      "Engineered normalized SQL schemas and optimized stored procedures to support hierarchical data ingestion, resulting in a 75% boost in query performance and reduced data duplication.",
+      "Enabled real-time analytics by transforming raw data into actionable formats and exposing it through React.js dashboards connected to Azure SQL, improving business decision-making.",
+      "Automated data quality checks, validation layers, and logging mechanisms to ensure data accuracy, traceability, and compliance throughout the pipeline lifecycle.",
+      "Leveraged Databricks and PySpark for distributed processing of high-volume datasets and facilitated cloud-based data lake migrations and optimizations.",
+      "Performed statistical data profiling and trend analysis using NumPy, Matplotlib, and Seaborn to uncover anomalies and derive insights for water infrastructure and construction cost projects.",
+      "Implemented full-stack internal tools for data monitoring and visualization using FastAPI/Node.js APIs and React.js frontends, containerized with Docker and deployed via Azure DevOps CI/CD pipelines."
     ],
   },
   {
     title: "Software Development Intern",
-    company_name: "Atkins Realis",
+    company_name: "AtkinsRealis",
     icon: atkins,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - May 2023",
